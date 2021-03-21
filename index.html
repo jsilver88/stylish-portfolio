@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="scss/style.css">
+
+    <title>Stylish Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Close</span>
+        </div>
+        <header class="header" id="home">
+            <div class="img-wrapper">
+                <img src="images/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>I'm Jared</h1>
+                <p>A Full Stack Web Developer</p>
+                <button><a href="#projects" data-content="Projects">Projects</a></button>
+            </div>
+        </header>
+    
+        <section class="sidebar">
+            <ul class="menu">
+                <li class="menu-item"><a href="#home" class="menu-link" data-content="Home">Home</a></li>
+                <li class="menu-item"><a href="#about" class="menu-link" data-content="About">About</a></li>
+                <li class="menu-item"><a href="#skills" class="menu-link" data-content="Skills">Skills</a></li>
+                <li class="menu-item"><a href="#projects" class="menu-link" data-content="Projects">Projects</a></li>
+                <li class="menu-item"><a href="#contact" class="menu-link" data-content="Contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="section-header">
+                <h2 class="section-heading">About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <img src="images/bg.jpg" alt="" class="about-image">
+                <div class="about-box">
+                    <p>I'm an L.A. based web developer with a passion for coding. I love creating fully functional websites and apps for businesses and individuals. I constantly push myself to be a better developer by learning and keeping up with the latest trends, libraries, and frameworks. I specialize in the MERN (Mongodb, Express, React, Node) stack in creating fast, scalable websites and applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="section-header">
+                <h2 class="section-heading">My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill">
+                    <img src="images/seo.svg" alt="">
+                    <h2>Web Development</h2>
+                    <div class="skill-container">
+                        <p class="pill">HTML5</p>
+                        <p class="pill">CSS3</p>
+                        <p class="pill">JavaScript</p>
+                    </div>                   
+                </div>
+                <div class="skill">
+                    <img src="images/web-design.svg" alt="">
+                    <h2>Frontend Frameworks</h2>
+                    <div class="skill-container">
+                        <p class="pill">React.js</p>
+                        <p class="pill">Bootstrap</p>
+                        <p class="pill">jQuery</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="images/backend.svg" alt="">
+                    <h2>Backend Frameworks</h2>
+                    <div class="skill-container">
+                        <p class="pill">Node.js</p>
+                        <p class="pill">Express</p>
+                        <p class="pill">Ruby on Rails</p>
+                    </div>   
+                </div>
+                <div class="skill">
+                    <img src="images/system.svg" alt="">
+                    <h2>Web Services</h2>
+                    <div class="skill-container">
+                        <p class="pill">Maintenance</p>
+                        <p class="pill">SEO</p>
+                        <p class="pill">Web Hosting</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="section-header">
+                <h2 class="section-heading">Recent Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="cards-wrapper">
+                <div class="card" data-tilt>
+                    <div class="card-img">
+                        <img src="images/bg.jpg" alt="CEO">
+                    </div>
+                    <div class="card-info">
+                        <h3>John Smith</h3>
+                        <h4>CEO</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolor.</p>
+                        <button><a href="#">Code</a></button>
+                        <button><a href="#">Demo</a></button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img">
+                        <img src="images/bg.jpg" alt="Designer">
+                    </div>
+                    <div class="card-info">
+                        <h3>Anne Brown</h3>
+                        <h4>Designer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolor.</p>
+                        <button><a href="#">Code</a></button>
+                        <button><a href="#">Demo</a></button>
+                    </div>
+                </div>
+                <div class="card" data-tilt>
+                    <div class="card-img">
+                        <img src="images/bg.jpg" alt="Architect">
+                    </div>
+                    <div class="card-info">
+                        <h3>Mary Jane</h3>
+                        <h4>Architect</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolor.</p>
+                        <button><a href="#">Code</a></button>
+                        <button><a href="#">Demo</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-header">
+                <h2 class="section-heading">Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="submit-btn">
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">
+                    Copyright &copy; 2021 Jared Silver - All Rights Reserved
+                </p>
+                <div class="social-list">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <a href="#" class="scroll-btn"><i class="fas fa-arrow-up"></i></a> -->
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
